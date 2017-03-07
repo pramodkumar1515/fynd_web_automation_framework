@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="GoFyndWeb_TestSuite" >
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+       <listener class-name="commonlib.DynamicallyRunTestCases" /> 
+      <listener class-name="commonlib.TestListener" /> 
+      <listener class-name="commonlib.ExecutionListener" /> 
+       <!-- <listener class-name="com.digi.selenium.util.common.GroupRunnerListner" />-->    
+  </listeners>
+   <test name="Sanity TestCases"> 	
+        <classes> 
+      		 <!-- Add the TestClasses -->
+         
+           <!-- Sanity test Cases -->
+	         <class name="web.Gofynd" />	         
+		</classes>        
+   </test>
+</suite>

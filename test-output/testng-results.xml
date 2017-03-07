@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58797" started-at="2017-03-07T02:57:45Z" finished-at="2017-03-07T02:58:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58797" started-at="2017-03-07T02:57:45Z" finished-at="2017-03-07T02:58:44Z">
+      <class name="web.Gofynd">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:web.Gofynd@58c6693e]" name="initDriver" is-config="true" duration-ms="2131" started-at="2017-03-07T08:27:45Z" finished-at="2017-03-07T08:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="OpenFyndHomePage()[pri:0, instance:web.Gofynd@58c6693e]" name="OpenFyndHomePage" duration-ms="6970" started-at="2017-03-07T08:27:47Z" finished-at="2017-03-07T08:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFyndHomePage -->
+        <test-method status="PASS" signature="SelectCategory()[pri:0, instance:web.Gofynd@58c6693e]" name="SelectCategory" duration-ms="2351" started-at="2017-03-07T08:27:54Z" finished-at="2017-03-07T08:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCategory -->
+        <test-method status="PASS" signature="SelectCategoryFilter()[pri:0, instance:web.Gofynd@58c6693e]" name="SelectCategoryFilter" duration-ms="345" started-at="2017-03-07T08:27:57Z" finished-at="2017-03-07T08:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCategoryFilter -->
+        <test-method status="PASS" signature="SelectOtherFiters()[pri:0, instance:web.Gofynd@58c6693e]" name="SelectOtherFiters" duration-ms="5500" started-at="2017-03-07T08:27:57Z" finished-at="2017-03-07T08:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectOtherFiters -->
+        <test-method status="PASS" signature="addTwoProductsInCartsCheckOutFlow()[pri:0, instance:web.Gofynd@58c6693e]" name="addTwoProductsInCartsCheckOutFlow" duration-ms="28789" started-at="2017-03-07T08:28:03Z" finished-at="2017-03-07T08:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoProductsInCartsCheckOutFlow -->
+        <test-method status="PASS" signature="SelectPaymentMethod()[pri:0, instance:web.Gofynd@58c6693e]" name="SelectPaymentMethod" duration-ms="2397" started-at="2017-03-07T08:28:31Z" finished-at="2017-03-07T08:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentMethod -->
+        <test-method status="PASS" signature="RemoveItemFromcart()[pri:0, instance:web.Gofynd@58c6693e]" name="RemoveItemFromcart" duration-ms="10182" started-at="2017-03-07T08:28:34Z" finished-at="2017-03-07T08:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemFromcart -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:web.Gofynd@58c6693e]" name="terminateBrowser" is-config="true" duration-ms="94" started-at="2017-03-07T08:28:44Z" finished-at="2017-03-07T08:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- web.Gofynd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

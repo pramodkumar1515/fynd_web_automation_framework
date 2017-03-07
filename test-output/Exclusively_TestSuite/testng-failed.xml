@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Exclusively_TestSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="commonlib.DynamicallyRunTestCases"/>
+    <listener class-name="commonlib.TestListener"/>
+    <listener class-name="commonlib.ExecutionListener"/>
+  </listeners>
+  <test name="Build no-XXX test(failed)">
+    <classes>
+      <class name="web.Gofynd">
+        <methods>
+          <include name="initDriver"/>
+          <include name="placeOrderRegisterUserCheckOutFlow"/>
+        </methods>
+      </class> <!-- web.Gofynd -->
+    </classes>
+  </test> <!-- Build no-XXX test(failed) -->
+</suite> <!-- Failed suite [Exclusively_TestSuite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoFyndWeb_TestSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="commonlib.DynamicallyRunTestCases"/>
+    <listener class-name="commonlib.TestListener"/>
+    <listener class-name="commonlib.ExecutionListener"/>
+  </listeners>
+  <test name="Sanity TestCases(failed)">
+    <classes>
+      <class name="web.Gofynd">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="SelectPaymentMethod"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- web.Gofynd -->
+    </classes>
+  </test> <!-- Sanity TestCases(failed) -->
+</suite> <!-- Failed suite [GoFyndWeb_TestSuite] -->
